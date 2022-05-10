@@ -21,6 +21,7 @@ urlpatterns = [
 ]
 
 urlpatterns = [
-    path('', include('your_app_name_here.urls')),	   
+    path('', include('first_app.urls')),
+    path('second', include('second_app.urls'))   
     # path('admin/', admin.sites.urls)         # comment out, or just delete
 ]
